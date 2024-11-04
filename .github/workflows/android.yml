@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ${{ env.repository_name }} - ${{ env.date_today }} - Debug APK generated
-          path: app/build/outputs/apk/debug/
+          path: app/build/outputs/apk/fdroid/debug/
